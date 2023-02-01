@@ -1,0 +1,137 @@
+
+
+
+
+var set1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var set2 = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
+var sum = 0;
+for (var i = 0; i < set1.length; i++) {
+  sum += set1[i];
+}
+for (var i = 0; i < set2.length; i++) {
+  sum += set2[i];
+}
+console.log(sum);
+
+
+
+var a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var b = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
+var sum = 0;
+for (var i = 0; i < a.length; i++) {
+  sum += a[i];
+}
+for (var i = 0; i < b.length; i++) {
+  sum += b[i];
+}
+console.log(sum);
+
+
+
+
+var set1 = [3, 1, 7, 9];
+var set2 = [2, 4, 1, 9, 3];
+var sum = 0;
+for (var i = 0; i < set1.length; i++) {
+  sum += set1[i];
+}
+for (var i = 0; i < set2.length; i++) {
+  sum += set2[i];
+}
+console.log(sum);
+
+
+
+
+
+
+
+
+
+var set1 = [3, 1, 7, 9];
+var set2 = [2, 4, 1, 9, 3];
+var sum = 0;
+for (var i = 0; i < set1.length; i++) {
+  sum += set1[i];
+}
+for (var i = 0; i < set2.length; i++) {
+  sum += set2[i];
+}
+console.log(sum);
+
+
+
+var set1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var set2 = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
+var sum = 0;
+for (var i = 0; i < set1.length; i++) {
+  for (var j = 0; j < set2.length; j++) {
+    if (set1[i] == set2[j]) {
+      sum += set1[i];
+    }
+  }
+}
+console.log(sum);
+/* Example: */
+var a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var b = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
+var sum = 0;
+for (var i = 0; i < a.length; i++) {
+  for (var j = 0; j < b.length; j++) {
+    if (a[i] == b[j]) {
+      sum += a[i];
+    }
+  }
+}
+console.log(sum);
+/* Set 1: [12, 13, 6, 10] */
+var set1 = [12, 13, 6, 10];
+var set2 = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
+var sum = 0;
+for (var i = 0; i < set1.length; i++) {
+  for (var j = 0; j < set2.length; j++) {
+    if (set1[i] == set2[j]) {
+      sum += set1[i];
+    }
+  }
+}
+console.log(sum);
+/* Set 2: [13, 10, 16, 15] */
+var set1 = [12, 13, 6, 10];
+var set2 = [13, 10, 16, 15];
+var sum = 0;
+for (var i = 0; i < set1.length; i++) {
+  for (var j = 0; j < set2.length; j++) {
+    if (set1[i] == set2[j]) {
+      sum += set1[i];
+    }
+  }
+}
+console.log(sum);
+/* Sum of overlapping elements: 46 */
+var set1 = [12, 13, 6, 10];
+var set2 = [13, 10, 16, 15];
+var sum = 0;
+for (var i = 0; i < set1.length; i++) {
+  for (var j = 0; j < set2.length; j++) {
+    if (set1[i] == set2[j]) {
+      sum += set1[i];
+    }
+  }
+}
+console.log(sum);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
